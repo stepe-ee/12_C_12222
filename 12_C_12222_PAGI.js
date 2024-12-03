@@ -15,7 +15,7 @@ function validateData(studentData) {
         }else {
             resolve(`Student ${studentData.nama} has been successfully registered`)
             }
-        }, 5)
+        }, 5000)
     })
 }
 
