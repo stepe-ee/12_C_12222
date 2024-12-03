@@ -1,0 +1,8 @@
+1. Jelaskan bagaimana konsep exception handling dapat membantu meningkatkan
+kualitas dan ketahanan suatu system atau aplikasi!
+= Exception handling dapat membantu system agar tetap stabil meskipun terjadinya error. Selain itu, dapat mempermudah perbaikan karena error dapat ditampilkan dalam log.
+2. Dalam sistem yang telah Anda kerjakan sebelumnya, apa peran try-catch dalam
+menangani error dan bagaimana cara kerja finally dalam sistem tersebut?
+=try-catch berguna karena menangkap dan menangani error dalam system tanpa membuat system tersebut berhenti. Sedangkan, finally berguna sebagai pembersihan operasi, yang dimana finally ini dapat dijalankan Ketika system mengalami error ataupun tidak.
+3. Deskripsikan kelas PEMOGRAMAN BERBASIS OBYEK dalam 2 kata!
+=Kay GACOR!
