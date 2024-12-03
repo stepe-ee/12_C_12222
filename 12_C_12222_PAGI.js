@@ -19,7 +19,7 @@ function validateData(studentData) {
     });
 }
 
-async function processStudent(studentData) {
+async function processData(studentData) {
     try {
         const result = await validateData(studentData);
         console.log(result);
@@ -36,4 +36,4 @@ const students = [
     { nama: "Kay", tanggal: "1995-08-15", ktp: "1122334455667788" },
 ];
 
-students.forEach((student) => processStudent(student));
+students.forEach((student) => processData(student));
