@@ -29,7 +29,6 @@ const testCases = [
     { label: "[4]", total: 50, bayar: 75, method: "bitcoin" },
 ]
 
-// Eksekusi setiap test case
 testCases.forEach(({ label, total, bayar, method }) => {
     console.log(label)
     processPayment(total, bayar,method)
